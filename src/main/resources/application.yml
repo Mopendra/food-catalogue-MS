@@ -6,8 +6,8 @@ spring:
     active: dev
   datasource:
     url: jdbc:mysql://mysql-db.cf888ioo64ez.us-east-1.rds.amazonaws.com:3306/foodcataloguedb
-    password: admin
-    username: codedecode
+    password: codedecode
+    username: admin
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
