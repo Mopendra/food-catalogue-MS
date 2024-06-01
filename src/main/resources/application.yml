@@ -4,11 +4,10 @@ server:
 spring:
   profiles:
     active: dev
+    application:
+      name: FOOD-CATALOGUE-SERVICE
   datasource:
-    url: jdbc:mysql://mysql-db.cf888ioo64ez.us-east-1.rds.amazonaws.com:3306/foodcataloguedb
-    password: codedecode
-    username: admin
-    driver-class-name: com.mysql.cj.jdbc.Driver
+   driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     hibernate:
